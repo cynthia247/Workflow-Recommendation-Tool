@@ -1,0 +1,16 @@
+<tool id="workflow_recommendation" name="NL2WF" version="0.1.0">
+  <description>recommends top 5 workflows</description>
+  <command>python3 /home/cynthia/Downloads/Galaxy/galaxy/tools/myTools/toolExample.py $input</command>
+  <inputs>
+    <param name="input" type="text" label="Write your query here"/>
+  </inputs>
+  <outputs>
+    <data format_source="input" name="output" label="Follow this link when the job is finished /home/cynthia/Downloads/Galaxy/galaxy/tools/myTools/index.html" />
+   
+  </outputs>
+
+  <help>
+This tool recommends workflows according to your query.
+  </help>
+
+</tool>
